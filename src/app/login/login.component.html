@@ -1,0 +1,29 @@
+<div class="register_container">
+    <div class="white_circle"></div>
+    <div class="img_con">
+        <img src="../../assets/logo.png" width="450px" height="250px" />
+    </div>
+    <div class="card form_container">
+        <h3>Sign In</h3>
+        <form *ngIf="form_data_1"[formGroup]="form_data_1">
+            <div>
+                <label>{{loginData.email}}</label>
+                <input type="email" name="email" class="form-control" formControlName="email" />
+                <p *ngIf="form_data_1.get('email')?.touched && form_data_1.get('email')?.invalid " class="err">
+                    {{login_validation.email_validation}}
+                </p>
+            </div>
+            <div>
+                <label>{{loginData.password}}</label>
+                <input type="password" name="password" class="form-control" formControlName="password" />
+                <p *ngIf="form_data_1.get('password')?.touched && form_data_1.get('password')?.invalid " class="err">
+                    {{login_validation.password_validation}}
+                </p>
+            </div>
+            <div>
+                <p style="text-align: center; margin-top: 20px;">Create a account? <a href="register">SignUp</a></p>
+            </div>
+            <button  class="btn btn-primary" (click)="login()">{{loginData.submit}}</button>
+        </form>
+    </div>
+</div>

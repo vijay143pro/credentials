@@ -1,0 +1,11 @@
+<app-header id="app-header"></app-header>
+<!--code for breadcrum-->
+
+<mat-drawer-container class="app-container">
+  <mat-drawer mode="side" opened><app-sidebar></app-sidebar></mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+
+<app-breadcrumb></app-breadcrumb>

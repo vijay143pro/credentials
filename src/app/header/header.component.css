@@ -1,0 +1,32 @@
+.mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #5B98F2;
+    box-shadow: 0px 2px 10px rgb(163, 161, 161);
+    
+  }
+  
+  .logo {
+    margin-bottom:10px ;
+    width: 40px; 
+    height: 40px;
+  }
+  .aug-logo{
+    border-radius: 50%;
+  }
+  .title {
+    font-size: 25px;
+    margin-left: 80px;
+  }
+
+  .logout{
+    border-radius: 50%;
+    margin-right: 50px;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  

@@ -1,0 +1,44 @@
+{
+
+  "LOGIN":{
+
+    "email":"Email",
+    "password":"Password",
+    "submit":"Submit"
+    
+
+  },
+"VALIDATION":{
+  "email_validation":"Enter a valid email from the augusta.com domain",
+  "password_validation":"Password must contain 8 characters including 1 number, 1 special character, and 1 capital letter"
+},
+  "VAULTS":{
+    "Shared_vault":"Shared Vault",
+    "Personal_vault":"Personal Vault",
+    "logout":"Logout"
+
+  },
+
+  "PROJECTS":{
+
+   
+
+    "new_project":"New Project"
+
+  },
+
+  "TITLE":{
+
+    "NEW_TITLE":"New Title"  
+
+  },
+
+ "FIELDS":{
+
+  "SUBTITLE":"Subtitle",
+
+  "FIELD":"Field"
+
+ }
+
+}
